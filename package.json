@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "axios": "^1.10.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "file-type": "^16.5.4",
+    "googleapis": "^148.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mime-types": "^3.0.1",
+    "mongodb": "^6.19.0",
+    "mssql-async": "^3.0.1",
+    "multer": "^1.4.5-lts.2"
+  }
+}
