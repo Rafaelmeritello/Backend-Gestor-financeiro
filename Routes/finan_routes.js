@@ -22,7 +22,7 @@ const upload = multer({
 
 router.get('/get_saldo', validar_usuario,finan_controller.get_saldo)      
  router.get('/get_registros',validar_usuario, finan_controller.get_registros) 
-router.post('/add_registro', finan_controller.novo_registro) 
+router.post('/add_registro',validar_usuario, finan_controller.novo_registro) 
 router.get('/get_data_calculo',validar_usuario, finan_controller.get_data_calculo)
 router.post('/set_data_calculo', finan_controller.set_data_calculo)
 
